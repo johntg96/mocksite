@@ -1,0 +1,94 @@
+/***********************
+'styles' Stylesheet
+C. 2016 John Garrison
+johntg96.github.io
+***********************/
+
+/***********************
+Fonts
+***********************/
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+/***********************
+Variables
+***********************/
+
+// Fonts
+$monotitle: 'Share Tech Mono', arial;
+$boldtitle: 'Bungee', arial;
+$title: 'Comfortaa', arial;
+$text: 'Pontano Sans', arial;
+
+// Colors
+$blue: #2b7faf;
+$darkblue: #083854;
+
+/***********************
+General Element Styling
+***********************/
+
+html {
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $boldtitle;
+}
+
+a {
+	font-family: $text;
+	color: $blue;
+}
+
+p {
+	font-family: $text;
+}
+
+/***********************
+Header
+***********************/
+
+.header {
+	text-align: center;
+	background-color: $blue;
+	color: white;
+
+	a {
+		color: #c0e2db;
+		font-weight: 800;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: white;
+	}
+}
+
+#main-title {
+	font-size: 2.5em;
+	margin-top: 0;
+	padding-top: 1.3em;
+}
+
+#sub-title {
+	font-family: $text;
+	padding-bottom: 1.5em;
+	color: $darkblue;
+}
+
+/***********************
+Section/Showcase
+***********************/
+
+/***********************
+Footer
+***********************/

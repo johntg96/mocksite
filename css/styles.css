@@ -1,0 +1,62 @@
+/***********************
+'styles' Stylesheet
+C. 2016 John Garrison
+johntg96.github.io
+***********************/
+/***********************
+Fonts
+***********************/
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+@import url("https://fonts.googleapis.com/css?family=Pontano+Sans");
+/***********************
+Variables
+***********************/
+/***********************
+General Element Styling
+***********************/
+body {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bungee", arial; }
+
+a {
+  font-family: "Pontano Sans", arial;
+  color: #2b7faf; }
+
+p {
+  font-family: "Pontano Sans", arial; }
+
+/***********************
+Header
+***********************/
+.header {
+  text-align: center;
+  background-color: #2b7faf;
+  color: white; }
+  .header a {
+    color: #c0e2db;
+    font-weight: 800;
+    text-decoration: none; }
+  .header a:hover {
+    color: white; }
+
+#main-title {
+  font-size: 2.5em;
+  margin-top: 0;
+  padding-top: 1.3em; }
+
+#sub-title {
+  font-family: "Pontano Sans", arial;
+  padding-bottom: 1.5em;
+  color: #083854; }
+
+/***********************
+Section/Showcase
+***********************/
+/***********************
+Footer
+***********************/
